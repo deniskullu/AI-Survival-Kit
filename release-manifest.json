@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "channel": "preview",
+  "generated_at": "2026-11-15T15:45:00Z",
+  "provisioner": {
+    "version": "0.5.4",
+    "release_url": "https://github.com/deniskullu/AI-Survival-Kit/releases/tag/windows-preview-3",
+    "download_url": "https://github.com/deniskullu/AI-Survival-Kit/releases/download/windows-preview-3/AI-Survival-Kit-Provisioner-Official-Downloads.exe",
+    "size_bytes": 28993536,
+    "sha256": "37cb9898f8773fcc3b7a55bedba3378f563e958454428a09612e20f03f7ca837"
+  },
+  "kit": {
+    "version": "0.5.7B-preview",
+    "minimum_provisioner_version": "0.5.4",
+    "package_folders": [
+      "windows-lite-0.5.7A",
+      "windows-starter-0.5.7A"
+    ],
+    "supported_models": [
+      "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "qwen2.5-1.5b-instruct-q4_k_m.gguf"
+    ],
+    "release_notes": [
+      "Safe updates preserve Data and Config.",
+      "The prior kit remains in a dated backup folder until validation.",
+      "The updated desktop app allows slower USB drives up to 120 seconds for first model startup."
+    ]
+  }
+}
+
