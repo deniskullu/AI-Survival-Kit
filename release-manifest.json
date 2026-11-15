@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "channel": "preview",
+  "generated_at": "2026-11-16T00:00:00Z",
+  "provisioner": {
+    "version": "0.5.6",
+    "release_url": "https://github.com/deniskullu/AI-Survival-Kit/releases/tag/windows-preview-5",
+    "download_url": "https://github.com/deniskullu/AI-Survival-Kit/releases/download/windows-preview-5/AI-Survival-Kit-Provisioner.exe",
+    "size_bytes": 30880768,
+    "sha256": "70456b00903cb5db87c4677e729a64ba176be117f0fde28c3836dc7fdb034ca8"
+  },
+  "kit": {
+    "version": "0.5.7B-preview",
+    "minimum_provisioner_version": "0.5.4",
+    "package_folders": ["windows-lite-0.5.7A", "windows-starter-0.5.7A"],
+    "supported_models": ["qwen2.5-0.5b-instruct-q4_k_m.gguf", "qwen2.5-1.5b-instruct-q4_k_m.gguf"],
+    "release_notes": ["Provisioner 0.5.6 publishes the current desktop build.", "Safe updates preserve Data and Config.", "My Documents and bundled PDF extraction/OCR are included."]
+  }
+}
